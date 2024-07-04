@@ -1,0 +1,241 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     _i2caddr
+005     _vccstate
+006     x_pos
+007     y_pos
+008     text_size
+009.0   wrap
+00A-409 ssd1306_buffer
+40A-40B Adc0
+40C-41B text
+41C     selec
+41D     hist
+41E     TH
+41F     TL
+420     flag
+421     Temp
+422-425 Volts
+426-427 @sprintf_string
+428-43D MAIN.@STRPARAM
+43E     SSD1306_Begin.vccstate
+43E-43F @ITOF.P1
+43E-43F SSD1306_DrawCircle.x0
+43E     @PRINTF_D_935.P1
+43E-43F SSD1306_ClearDisplay.i
+43E-441 @SFTOI.P1
+43E-43F SSD1306_Display.i
+43E-441 @MULFF.P1
+43E     MAIN.@SCRATCH1
+43F     SSD1306_Begin.i2caddr
+43F     @PRINTF_D_935.P1
+43F     MAIN.@SCRATCH2
+440     SSD1306_ROMBMP.x
+440     SSD1306_DrawText.x
+440     @delay_ms1.P1
+440-441 SSD1306_DrawCircle.y0
+440     SSD1306_Display.x
+440     SSD1306_ClearDisplay.@SCRATCH1
+440     MAIN.@SCRATCH3
+440     @PRINTF_D_935.@SCRATCH1
+441     SSD1306_ROMBMP.y
+441     SSD1306_DrawText.y
+441     ssd1306_command.c
+441     SSD1306_Display.@SCRATCH1
+441     SSD1306_ClearDisplay.@SCRATCH2
+441     MAIN.@SCRATCH4
+441     @PRINTF_D_935.@SCRATCH2
+442-443 SSD1306_DrawCircle.r
+442     ssd1306_command.control
+442-443 SSD1306_ROMBMP.bitmap
+442-443 SSD1306_DrawText._text
+442-445 @MULFF.P1
+442     @PRINTF_D_935.@SCRATCH3
+443     @I2C_WRITEU_1.P1
+443     @PRINTF_D_935.@SCRATCH4
+444-445 SSD1306_DrawCircle.f
+444     @SPRINTF.P1
+444     SSD1306_ROMBMP.w
+444     SSD1306_DrawText.size
+444     @DIV88.P1
+445     SSD1306_TextSize.t_size
+445     @DIV88.P1
+445     SSD1306_GotoXY.x
+445     SSD1306_ROMBMP.h
+445     SSD1306_DrawText.@SCRATCH1
+446     SSD1306_Print.c
+446     SSD1306_GotoXY.y
+446-447 SSD1306_ROMBMP.i
+446-447 SSD1306_DrawCircle.ddF_x
+446     @MULFF.@SCRATCH1
+446     @DIV88.@SCRATCH1
+447.0   SSD1306_Print._color
+447     @MULFF.@SCRATCH2
+448-449 SSD1306_DrawCircle.ddF_y
+448-449 SSD1306_ROMBMP.j
+448     SSD1306_Print.i
+448     @MULFF.@SCRATCH3
+449     SSD1306_Print.j
+44A     SSD1306_Print.line
+44A-44B SSD1306_DrawCircle.x
+44A     SSD1306_ROMBMP.@SCRATCH1
+44B     SSD1306_Print.@SCRATCH1
+44B     SSD1306_ROMBMP.@SCRATCH2
+44C-44D SSD1306_DrawCircle.y
+44C-44D @MUL1616.P1
+44C     SSD1306_Print.@SCRATCH2
+44C     SSD1306_ROMBMP.@SCRATCH3
+44D-44E @READ_PROGRAM_MEMORY.P1
+44D     SSD1306_Print.@SCRATCH3
+44D     SSD1306_ROMBMP.@SCRATCH4
+44E-44F @MULS1616.P1
+44E-44F @MUL1616.P2
+44E     SSD1306_FillRect.x
+44E     SSD1306_DrawCircle.@SCRATCH1
+44E     SSD1306_ROMBMP.@SCRATCH5
+44F     SSD1306_FillRect.y
+44F     SSD1306_DrawCircle.@SCRATCH2
+450-451 @MULS1616.P1
+450     SSD1306_FillRect.w
+450     SSD1306_DrawCircle.@SCRATCH3
+450     @MUL1616.@SCRATCH1
+451     SSD1306_FillRect.h
+451     SSD1306_DrawCircle.@SCRATCH4
+452     SSD1306_FillRect.color
+452     @MULS1616.@SCRATCH1
+453-454 SSD1306_FillRect.i
+453     @MULS1616.@SCRATCH2
+455     SSD1306_DrawFastVLine.x
+456     SSD1306_DrawFastVLine.y
+457     SSD1306_DrawFastVLine.h
+458     SSD1306_DrawFastVLine.color
+459     SSD1306_DrawFastVLine.@SCRATCH1
+45A-45B SSD1306_DrawLine.x0
+45C-45D SSD1306_DrawLine.y0
+45E-45F SSD1306_DrawLine.x1
+460-461 SSD1306_DrawLine.y1
+462     SSD1306_DrawLine.color
+463.0   SSD1306_DrawLine.steep
+464     SSD1306_DrawLine.ystep
+465     SSD1306_DrawLine.dx
+466     SSD1306_DrawLine.dy
+467-468 SSD1306_DrawLine.err
+469-46A SSD1306_DrawLine.t
+46B-46C SSD1306_DrawLine.t
+46D-46E SSD1306_DrawLine.t
+46F-470 SSD1306_DrawLine.t
+471     SSD1306_DrawPixel.x
+471     SSD1306_DrawLine.@SCRATCH1
+472     SSD1306_DrawPixel.y
+472     SSD1306_DrawLine.@SCRATCH2
+473     SSD1306_DrawPixel.color
+473     SSD1306_DrawLine.@SCRATCH3
+474     SSD1306_DrawPixel.@SCRATCH1
+474     SSD1306_DrawLine.@SCRATCH4
+475     SSD1306_DrawPixel.@SCRATCH2
+476     SSD1306_DrawPixel.@SCRATCH3
+477     SSD1306_DrawPixel.@SCRATCH4
+478     SSD1306_DrawPixel.@SCRATCH5
+F78.6   C2OUT
+F79.6   C1OUT
+F98     CCP_2
+F98     CCP_2_LOW
+F99     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+002008  Font.call
+002018  Font.data
+002118  Font2.call
+002128  Font2.data
+002204  @const914.call
+002226  @const916.call
+002242  @const917.call
+002260  @const918.call
+002280  @const919.call
+0022A0  @const920.call
+0022BA  @const921.call
+0022DE  @const922.call
+0022FC  @const944.call
+00231A  @const948.call
+00233E  @const949.call
+002364  Portada_Oled.call
+002364  Portada_Oled.data
+002764  @delay_ms1
+00278E  @I2C_WRITEU_1
+0027AA  ssd1306_command
+0027D0  SSD1306_Begin
+00291E  SSD1306_ClearDisplay
+002944  SSD1306_Display
+0029E8  @MUL1616
+002A0C  @READ_PROGRAM_MEMORY
+002A2C  SSD1306_DrawPixel
+002B1C  SSD1306_ROMBMP
+002CC6  SSD1306_GotoXY
+002CE4  SSD1306_TextSize
+002CF8  SSD1306_DrawLine
+002EEE  SSD1306_DrawFastVLine
+002F1A  SSD1306_FillRect
+002F58  SSD1306_Print
+00310C  SSD1306_DrawText
+003156  @ITOF
+00318E  @MULFF
+003284  @SFTOI
+0032C2  @DIV88
+0032EE  @SPRINTF
+00330E  @PRINTF_D_935
+0033CA  @MULS1616
+003420  SSD1306_DrawCircle
+003698  @cinit1
+003698  MAIN
+0036F4  @cinit2
+
+Project Directory:
+    D:\dayan\Documentos2\PRACTICAS GALLO\UNIDAD 2\PROYECTO U2\
+
+Project Files:
+    Proyecto_U2.c                                           [25-oct.-22 12:27  CRC=29106B52]
+    C:\Program Files (x86)\PICC\devices\18f45k50.h          [12-nov.-13 14:35  CRC=FE5C2EB4]
+    SSD1306OLED.c                                           [09-nov.-21 20:49  CRC=694D7E91]
+    C:\Program Files (x86)\PICC\drivers\stdint.h            [30-dic.-08 09:01  CRC=9F7F640F]
+    Imagenes.h                                              [02-oct.-22 14:06  CRC=00A5E277]
+
+Source signature=31854194
+
+Units:
+    Proyecto_U2 (main)
+
+Compiler Settings:
+    Processor:      PIC18F45K50
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    ICD Provisions: Yes
+    Predefined symbols:
+       #define __DEBUG 1
+       #define __18F45K50 TRUE
+
+Output Files:
+    Errors:      Proyecto_U2.err
+    INHX32:      Proyecto_U2.hex
+    Symbols:     Proyecto_U2.sym
+    List:        Proyecto_U2.lst
+    Debug/COFF:  Proyecto_U2.cof
+    Project:     Proyecto_U2.ccspjt
+    Call Tree:   Proyecto_U2.tre
+    Statistics:  Proyecto_U2.STA

@@ -1,0 +1,4 @@
+--- Info 300 "C:\Users\Usuario77\Documents\PROGRAMASGITHUB\MPLAB\UNIDAD 2\PROYECTO U2\18f45k50.h" Line 11(9,15): More info:   Device database: "C:\Program Files (x86)\PICC\devices4.dat"
+*** Error 24 "C:\Users\Usuario77\Documents\PROGRAMASGITHUB\MPLAB\UNIDAD 2\PROYECTO U2\18f45k50.h" Line 11(9,20): Unknown device type  "PIC18F45K50"
+C:\Users\Usuario77\Documents\PROGRAMASGITHUB\MPLAB\UNIDAD 2\PROYECTO U2\Proyecto_U2.o ===>  1 Errors,  0 Warnings.
+Build Failed.

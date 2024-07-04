@@ -1,0 +1,7 @@
+D G "__PCH__" 0 0 ""4.130""
+D G "__DEVICE__" 0 0 ""
+D G "__DATE__" 0 0 ""04-jul.-24""
+D G "__TIME__" 0 0 ""12:04:19""
+D G "__DEBUG" 0 0 "1"
+D G "__18F45K50" 0 0 "TRUE" "Standard Header file for the PIC18F45K50 device ////////////////"
+c L "_bif" 1 3 6 "FUNCTION"

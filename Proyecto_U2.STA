@@ -1,0 +1,87 @@
+
+ROM used:   9050/32768 (28%)
+            9054/32768 (28%) including unused fragments
+
+            3.8 Average locations per line
+            16.2 Average locations per statement
+
+RAM used:   1068/2048 (52%) at main() level
+            1145/2048 (56%) worst case
+
+Stack used: 6 worst case (6 in main + 0 for interrupts)
+Stack size: 30
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  202   141  25  Proyecto_U2.c
+  944     0   0  C:\Program Files (x86)\PICC\devices\18f45k50.h
+  968   416  75  SSD1306OLED.c
+  163     0   0  C:\Program Files (x86)\PICC\drivers\stdint.h
+   80     0   0  Imagenes.h
+----- -----
+ 2357   557 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     32   0    7             @READ_PROGRAM_MEMORY
+0     42   0    1             @delay_ms1
+0     28   0    1             @I2C_WRITEU_1
+0    272   2    0             @const823
+0    236   1    0             @const826
+0     38   0    2   163  2.3  ssd1306_command
+0    334   2    2  1210  4.9  SSD1306_Begin
+0    240   1    8   408  8.9  SSD1306_DrawPixel
+0    164   1    1   635  6.7  SSD1306_Display
+0     38   0    2   124  4.3  SSD1306_ClearDisplay
+0    502   3   19  1524  7.9  SSD1306_DrawLine
+0     44   0    5   146  3.1  SSD1306_DrawFastVLine
+0     62   0    5   219  4.1  SSD1306_FillRect
+0     86   0    6             @MULS1616
+0    632   3   20  1261  7.3  SSD1306_DrawCircle
+0     74   0    6   185  4.0  SSD1306_DrawText
+0     30   0    2   127  3.9  SSD1306_GotoXY
+0     20   0    1    68  2.4  SSD1306_TextSize
+0    436   2    8  2269 11.8  SSD1306_Print
+0    426   2   11   691  7.7  SSD1306_ROMBMP
+0     36   0    5             @MUL1616
+0   1024   6    0             @const899
+0   3270  18    4  7151 10.4  MAIN
+0     34   0    0             @const914
+0     28   0    0             @const916
+0     30   0    0             @const917
+0     32   0    0             @const918
+0     32   0    0             @const919
+0     26   0    0             @const920
+0     36   0    0             @const921
+0     30   0    0             @const922
+0     56   0    2             @ITOF
+0    246   1   11             @MULFF
+0     62   0    4             @SFTOI
+0     32   0    1             @SPRINTF
+0     44   0    3             @DIV88
+0    188   1    6             @PRINTF_D_935
+0     30   0    0             @const944
+0     36   0    0             @const948
+0     38   0    0             @const949
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               15
+    Statements              557
+    Comments                378
+    Volume (V)              23072
+    Difficulty (D)          90.1
+    Effort to implement (E) 2078945
+    Time to implement (T)   32 hours, 5 minutes
+    Est Delivered Bugs (B)  5
+    Cyclomatic Complexity   56
+    Maintainability (MI)    123
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-01FFE     0  8192  
+02000-02006     4  4  
+02008-07FFE  9046  15522  
+
+
+

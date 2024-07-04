@@ -1,0 +1,39 @@
+[PROJECT]
+Target=Proyecto_U2.hex
+Processor_Text=PIC18F45K50
+CCSVersion=5.015
+Compiler=PCH
+[Target Data]
+FileList=Proyecto_U2.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\devices\;C:\Program Files (x86)\PICC\drivers\
+[Proyecto_U2.c]
+Type=4
+[mru-list]
+1=Proyecto_U2.c
+[Units]
+Count=1
+1=Proyecto_U2 (main)
+
+[ProjectLog]
+Days=3
+D1=14-11-2022
+D1_L=5
+D1_L1=[56583]Project Opened.
+D1_L2=[56717]Project Closed.
+D1_L3=[57287]Project Opened.
+D1_L4=[57330]Started Editing.
+D1_L5=[57633]Stopped Editing.
+D2=15-11-2022
+D2_L=3
+D2_L1=[6478]Started Editing.
+D2_L2=[6778]Stopped Editing.
+TotalEdit=1
+TotalDebug=0
+D2_E=1
+D2_D=0
+D2_L3=[9197]Project Closed.
+D3=29-11-2022
+D3_L=2
+D3_L1=[21842]Project Opened.
+D3_L2=[21848]Project Closed.
