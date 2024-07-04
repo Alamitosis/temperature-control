@@ -1,3 +1,8 @@
+/*
+Control de temperatura de un cuarto usando un ventilador y una resistencia calefactora
+
+Por: Alan Oswaldo Huerta Becerra
+*/
 #include <18f45k50.h>
 #device PASS_STRINGS =IN_RAM
 #device adc = 10 
@@ -52,8 +57,8 @@ void main(void) {
 	SSD1306_DrawText(48,17,"AP. MICROS",1);
 	SSD1306_DrawText(50,27,"PROYECTO U2:",1);
 	SSD1306_DrawText(30,35,"CONTROL TEMPER",1);
-	SSD1306_DrawText(35,47,"DAYANA GOMEZ B",1);
-	SSD1306_DrawText(55,56,"19560091",1);
+	SSD1306_DrawText(35,47,"ALAN OSWALDO",1);
+	SSD1306_DrawText(55,56,"19560095",1);
 	SSD1306_Display();         
 	delay_ms(3000);               
 	SSD1306_ClearDisplay();
